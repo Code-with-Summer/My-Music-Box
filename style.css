@@ -63,7 +63,7 @@ footer {
   border: 15px solid #9ba5d8;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     .set{
         display: block;
         font-size: 30px;
