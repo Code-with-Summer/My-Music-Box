@@ -41,37 +41,43 @@ footer {
 }
 
 .set {
-  display: inline-flex;
+/*   display: inline-flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
 }
 
 .music {
   border: 10px solid #404b69;
   border-radius: 15px;
-  display: block;
-  grid-template-rows: repeat(4, 400px);
   width: 300px;
   height: 300px;
-  text-align: center;
-  margin: 10px;
   background-size: cover;
 }
 
 .myClass{
   border: 15px solid #9ba5d8;
 }
-
-@media screen and (max-width: 300px) {
+@media (min-width: 900px) {
     .set{
-        display: block;
-        font-size: 30px;
-    }
+      grid-template-columns: repeat(3, 1fr);
+    }    
+}
+@media (min-width: 600px) {
+    .set{
+      grid-template-columns: repeat(2, 1fr);
+    }    
+}
+@media (min-width: 300px) {
+    .set{
+      grid-template-columns: repeat(1, 1fr);
+    }    
     .music{
-        width: 275px;
-        height: 275px;
+      width: 500px;
+      height: 500px;
     }
-
-    
 }
