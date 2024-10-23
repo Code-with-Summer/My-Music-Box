@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-color: #283149;
+  /* padding: 5rem; */
 }
 
 h1 {
@@ -32,19 +33,25 @@ footer {
   background-image: url("./Templates/Unnaku_Thaan.jpg");
 }
 
+.nath {
+  background-image: url("./Templates/Nathuniye.jpg");
+}
+
 .naino {
   background-image: url("./Templates/Naino_Ki_Baat.jpg");
 }
 
-.bol {
+.bol { 
   background-image: url("./Templates/Bol_Kaffara_Kya_Hoga.jpg");
 }
 
 .set {
-/*   display: inline-flex;
+  /* display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; */
+  /* flex-direction: column; */
+
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
@@ -62,6 +69,7 @@ footer {
 .myClass{
   border: 15px solid #9ba5d8;
 }
+
 @media (min-width: 900px) {
     .set{
       grid-template-columns: repeat(3, 1fr);
