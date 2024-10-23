@@ -3,7 +3,7 @@ var songs = [
     "Music/Sang_Rahiyo.mp3", 
     "Music/Hass_Hass.mp3", 
     "Music/Unakku_Thaan.mp3", 
-    "Music/goli.mp3", 
+    "Music/nathuniye.mp3", 
     "Music/Naino_Ki_Baat.mp3", 
     "Music/Bol_Kaffara.mp3"
 ];
