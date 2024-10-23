@@ -1,7 +1,6 @@
 body {
   text-align: center;
   background-color: #283149;
-  /* padding: 5rem; */
 }
 
 h1 {
@@ -46,12 +45,6 @@ footer {
 }
 
 .set {
-  /* display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; */
-  /* flex-direction: column; */
-
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
